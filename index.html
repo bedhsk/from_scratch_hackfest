@@ -6,7 +6,37 @@
     <title>Test Google Maps</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body >
+    <a id="logo-header" href="#">
+        <span class="site-name">MoonMaps</span>
+        <span class="site-desc">Que la luna guíe tu camino</span>
+    </a> <!-- / #logo-header -->
+    <nav id="main-header" >
+        
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav><!-- / nav -->
+
+    <section id="main-contect" >
+	
+		<article>
+				
+			<img src="https://www.prensalibre.com/wp-content/uploads/2019/05/Celebracion-Xela-.jpg?quality=52" alt="Gatito" />
+						
+		</article> <!-- /article -->
+	
+	</section> <!-- / #main-content -->	
+	
+	<footer id="main-footer">
+		<p>&copy; 2014 <a href="http://franciscoamk.com">FromSracth</a></p>
+	</footer> <!-- / #main-footer -->
+    
+
+
     <!-- <iframe src="https://www.google.com/maps/d/embed?mid=15WNxeYp5lYRpFzdCKIsRGAZ49Uu4daE&ehbc=2E312F" width="640" height="480"></iframe> -->
     <button id="button">Mostra mi hubicación</button>
     <input type="text" id="place_input" placeholder="Ingresa un destino">
@@ -16,5 +46,6 @@
     <script src="script.js"></script>
     <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGlk0QtgaorCDlpSIx7v5Fxn8QJMMlhKY&libraries=places&callback=initMap"></script>
+
 </body>
 </html>
