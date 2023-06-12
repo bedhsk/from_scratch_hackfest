@@ -23,7 +23,7 @@ body {
 .full {
   width: 100%;
   height: 100%;
-  background: url('images/pexels-vladyslav-dushenkovsky-4100130.jpg') no-repeat 50% 50%;
+  background: url('images/luna5.jpeg') no-repeat 50% 50%;
   /*Foto de Vladyslav Dushenkovsky: https://www.pexels.com/es-es/foto/silueta-de-montana-bajo-la-luna-cubierta-de-nubes-4100130/*/
   display: flex;
   background-size: cover;
@@ -49,7 +49,7 @@ body {
 
 .content h1{
   font-family: 'Baskervville', serif;
-  color: #fff;
+  color: #d5c69d;
   font-size: 500%;
   font-style: italic;
 }
@@ -60,19 +60,19 @@ body {
   font-size: 200%;
   border-radius: 9px;
   text-decoration: none;
-  color: #fff;
+  color: #d5c69d;
   border: 3px solid;
   padding: 7px 13px;
   margin-bottom: 20px;
 }
 
 .content a:hover{
-  color: #2196F3;
+  color: #052c33;
 }
 
 .about-us{
   font-size: 20px;
-  color: #fff
+  color: #d5c69d
 }
 /* Estilos responsive */
 @media screen and (max-width: 768px) {
