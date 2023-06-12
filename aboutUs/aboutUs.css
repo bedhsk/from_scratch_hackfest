@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Baskervville', serif;
 }
 
 body{
@@ -21,6 +21,7 @@ body{
 }
 
 .heading h1{
+    font-family: 'Baskervville', serif;
     font-size: 50px;
     color: #d5c69d;
     margin-bottom: 25px;
@@ -78,9 +79,9 @@ body{
 }
 
 .about-content h2{
-    font-size: 23px;
+    font-family: 'Baskervville', serif;
+    font-size: 50px;
     margin-bottom: 15px;
-
     color: #d5c69d;
 }
 
