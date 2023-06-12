@@ -37,6 +37,10 @@ body {
   vertical-align: middle;
   display: table-cell;
 }
+.mooncontainer{
+ margin-right: 0%;
+
+}
 
 .content{
   display: flex;
