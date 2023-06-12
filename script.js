@@ -9,7 +9,7 @@ let coffee_icon;
 
 // markers
 // let coffee_marker;
-let restaurant_icon
+let restaurant_icon;
 let location_marker;
 let destination_marker;
 
@@ -22,12 +22,24 @@ function initMap() {
 
   loadIcons();
 
-  let coordinates_coffee = [14.83664, -91.51912, 14.83659, -91.51831, 14.83656, -91.51744,14.84361, -91.52638];
-  let details_coffee = ["Leyendas Café", "Grano de Café", "Cory_kay bakeshop", "Cafetería Azarela"];
+  let coordinates_coffee = [
+    14.83664, -91.51912, 14.83659, -91.51831, 14.83656, -91.51744, 14.84361,
+    -91.52638,
+  ];
+  let details_coffee = [
+    "Leyendas Café",
+    "Grano de Café",
+    "Cory_kay bakeshop",
+    "Cafetería Azarela",
+  ];
   let pos_coffee = 0;
 
   for (let index = 0; index < coordinates_coffee.length; index++) {
-    add_coffee_marker(coordinates_coffee[pos_coffee], coordinates_coffee[pos_coffee+1], details_coffee[index]);
+    add_coffee_marker(
+      coordinates_coffee[pos_coffee],
+      coordinates_coffee[pos_coffee + 1],
+      details_coffee[index]
+    );
     pos_coffee += 2;
   }
 
@@ -36,7 +48,11 @@ function initMap() {
   let pos_rest = 0;
 
   for (let index = 0; index < coordinates_rest.length; index++) {
-    add_restaurant_marker(coordinates_rest[pos_rest], coordinates_rest[pos_rest+1], details_rest[index]);
+    add_restaurant_marker(
+      coordinates_rest[pos_rest],
+      coordinates_rest[pos_rest + 1],
+      details_rest[index]
+    );
     pos_rest += 2;
   }
 
